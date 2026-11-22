@@ -7,3 +7,12 @@
  git restore testing.py
  ls
  git status
+ git remote add origin https://github.com/code777896/Github.git
+ git push -u origin main
+ git remote set-url origin https://token_from_github@github.com/code777896/Github.git
+ git add hello.txt
+ git add hello.py
+ git commit -m "add"
+ git status
+ git remote -v
+ git push origin master
