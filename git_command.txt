@@ -1,0 +1,9 @@
+ git init
+ git add testing.py
+ commit -m "add"
+ git commit -m "add"
+ ls -a
+ rm testing.py
+ git restore testing.py
+ ls
+ git status
