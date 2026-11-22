@@ -18,3 +18,20 @@
  git push origin master
 
 this is some new changes
+
+ history
+ git push origin master
+ git branch dev
+   git switch dev
+   git add dev_file.txt
+   git status
+   git add .
+   git commit -m "add"
+   git log
+   git log --oneline
+   git checkout dev
+   clear
+   git push origin dev
+   git branch
+   git switch master
+   git pull origin master
